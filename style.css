@@ -1,5 +1,52 @@
-
+header{
+    background-color: #588b8b;
+    }
+    
+    h1 {
+    text-align: center;
+    color:#ffffff;
+    font-family: "Libre Baskerville", sans-serif;
+    padding: 60px;
+    }
+    
 main {
+background-color: #ffd5c2;
 display: block;
+color: #f28f3b;
+font-family:"Raleway", sans-serif;
 }
 
+h2 {
+text-align: left;
+}
+
+#container {
+max-width: 400px;
+margin: auto;
+}
+
+.card {
+text-align: center;
+background-color: #ffffff;
+border: 3px solid;
+padding: 8px;
+border-radius: 12px;
+}
+
+img {
+max-width: 75%;
+height:auto;
+object-fit: cover;
+border-radius: 10px;
+padding: 3px;
+}
+
+button {
+padding: 10px 15px;
+border-radius: 10px;
+border-color: #c8553d;
+font-weight: 400;
+font-family: "Raleway";
+color:white;
+background-color:#588b8b;
+}
