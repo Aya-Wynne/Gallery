@@ -41,7 +41,6 @@ border-radius: 12px;
     .card {
       width:100%;
       height: auto;
-      margin: 30px
     }
     #container {
         flex-direction: column;
