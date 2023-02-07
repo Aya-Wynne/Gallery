@@ -21,15 +21,21 @@ text-align: center;
 margin-bottom: 30px;
 }
 
+#para1 {
+display: none;
+}
+
 #container {
 display: flex;
 flex-direction: row;
-justify-content: space-between;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .card {
 max-width: 400px;
-margin: auto;
+height:auto;
+margin:10px;
 text-align: center;
 background-color: #ffffff;
 border: 3px solid;
@@ -37,20 +43,9 @@ padding: 8px;
 border-radius: 12px;
 }
 
-@media only screen and (max-width: 600px) {
-    .card {
-      width:100%;
-      height: auto;
-    }
-    #container {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-}
-
 .card img {
 max-width: 100%;
-height:auto;
+height:250px;
 object-fit: cover;
 border-radius: 10px;
 }
