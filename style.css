@@ -39,7 +39,7 @@ border-radius: 12px;
 
 @media only screen and (max-width: 600px) {
     .card {
-      flex-wrap: wrap;
+      flex-direction: column;
       justify-content: space-between;
       width:100%;
       height: auto;
