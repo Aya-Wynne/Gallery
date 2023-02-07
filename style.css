@@ -21,8 +21,12 @@ text-align: center;
 margin-bottom: 30px;
 }
 
-#para1 {
+.hidden {
 display: none;
+}
+
+.show {
+display: block;
 }
 
 #container {
