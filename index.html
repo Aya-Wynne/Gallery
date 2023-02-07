@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Gallery</title>
     <link href="style.css" rel="stylesheet" />
-    <link href="script.js" />
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
       rel="stylesheet"
@@ -22,29 +21,27 @@
 
   <main>
     <h2>Here are some of my projects so far</h2>
-    <div id="container">
-      <div class="card">
+    <section id="container">
+      <article class="card">
         <img src="First.png" alt="Screenshot of a blue site" />
         <h3 class="name">My first project</h3>
-        <p>
+        <button id="btn" onclick="readMore()">Read More</button>
+        <p id="para">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur
           sodales morbi dignissim sed diam pharetra vitae ipsum odio.
         </p>
-        <button>Read More</button>
-      </div>
-    </div>
-    <div id="container">
-      <div class="card">
+      </article>
+      <article class="card">
         <img src="Hobby.png" alt="Screenshot of a green site" />
         <h3 class="name">My hobby page</h3>
-        <p>
+        <button id="btn" onclick="readMore()">Read More</button>
+        <p id="para">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur
           sodales morbi dignissim sed diam pharetra vitae ipsum odio.
         </p>
-        <button>Read More</button>
-      </div>
-    </div>
+      </article>
+    </section>
   </main>
-
   <footer></footer>
+  <script src="script.js"></script>
 </html>
