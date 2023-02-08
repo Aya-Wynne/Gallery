@@ -11,3 +11,17 @@ function readMore() {
     myBtn.innerText= "Read Less";
     }
 }
+
+function readMore2() {
+    var info2 = document.getElementById("para2");
+    var myBtn2 = document.getElementById("btn2");
+    info2.classList.toggle("hidden")
+    info2.classList.toggle("show")
+
+    if (info1.classList.contains("hidden")){
+        myBtn2.innerText = "Read More";
+    }
+    else { 
+    myBtn2.innerText= "Read Less";
+    }
+}
