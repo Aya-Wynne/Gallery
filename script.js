@@ -18,7 +18,7 @@ function readMore2() {
     info2.classList.toggle("hidden")
     info2.classList.toggle("show")
 
-    if (info1.classList.contains("hidden")){
+    if (info2.classList.contains("hidden")){
         myBtn2.innerText = "Read More";
     }
     else { 
